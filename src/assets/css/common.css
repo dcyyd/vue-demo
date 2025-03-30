@@ -1,0 +1,60 @@
+/* common.css */
+
+/* 按钮样式 */
+.btn,
+.action-button {
+  font-weight: bold;
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* 按钮悬停效果 */
+.btn:hover,
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+/* 容器样式 */
+.container,
+.info-container {
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  margin: 50px auto;
+}
+
+/* 数字段落样式 */
+.number {
+  font: bold 2rem sans-serif;
+  margin: 1rem 0;
+  color: #2d8809;
+}
+
+/* 标题样式 */
+.title,
+.title-2 {
+  text-align: center;
+  color: brown;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.title-2 {
+  font-size: 2rem;
+}
+
+/* hr 标签样式，使其变粗 */
+hr {
+  border: 0;
+  height: 0.3rem;
+  background: #000;
+}
